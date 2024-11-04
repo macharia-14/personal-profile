@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: aquamarine;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    
+    background-color: Soft Coral;
+    color: Dark Teal;
+    padding: 80px;
+    text-align: center;
+    
+}
+header h1 {
+    font-size: 40px;
+    
+    margin-bottom: 5px;
+}
+header p{
+    font-size: 18px;
+}
+/*Profile*/
+.profile-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+
+}
+.profile-image img{
+    
+    border-radius: 500px;
+    width: 200px;
+    height:200px;
+    object-fit: cover;
+   
+}
+
+/*About section*/
+
+.container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    transition: all 0.5s ease-in-out;
+}
+.container:hover {
+  
+    transform: scale(1.05); /* Slightly increase size on hover */
+    opacity: 1;
+}
+.about{
+   
+   
+        text-align: center; 
+        padding: 20px; 
+      
+        border-radius: 5px; 
+       
+   
+}
+.about h2{
+   
+    font-size: 30px;
+    color: #4A4A4A;
+    margin-bottom: 10px;
+
+}
+.about p{
+    font-size: 25px;
+    columns: #555;
+    
+}
+
+/*Experience*/
+.container{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;  
+   
+}
+.experience{
+
+    max-width: 700px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    background-color:Muted Lavender ;  
+}
+.experience h2{
+    
+    font-size: 30px;
+    color: #4A4A4A;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.experience ul{
+    list-style-type: none;
+}
+.experience li{
+    margin-bottom: 20px;
+}
+.experience strong{
+    font-size: 25px;
+    color: #333;
+}
+.experience p {
+    font-size: 25px;
+    color: #555;
+}
+
+/*Skills section*/
+.container{
+    background-color: Light Sand/Beige;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; /* Sets the height to 100% of the viewport height */    
+}
+.skills {
+    max-width: 800px;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+.skills h2{
+    font-size: 30px;
+    color:#4A4A4A;
+    margin-bottom: 10px;
+}
+.skills ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.skills li{
+    font-size: 25px;
+    color: bisque;
+    background-color:#6b9493;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+/*contact section*/
+.contact {
+    max-width: 1000px;
+    text-align: center;
+    padding: 20px;
+}
+.contact h2{
+    font-size: 30px;
+    color:#4A4A4A;
+    margin-bottom:10px;
+}
+
+.contact p{
+    font-size: 25px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.contact a{
+    color: #333;
+    text-decoration: none;
+}
+.contact a:hover{
+    text-decoration: underline;
+}
+
+/*Social Links*/
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    
+}
+
+.social-links a{
+    font-size: 20px;
+    color: Dark Gray;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+/*Footer*/
+footer{
+    margin-top:20px;
+    text-align: center;
+    font-size: 12px;
+    color:#555;
+}
